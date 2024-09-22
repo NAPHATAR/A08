@@ -32,8 +32,7 @@ export default function Banner() {
         <Image 
           src={bannerImages[currentImageIndex]} 
           alt="Vaccine Service Center" 
-          width={1920}
-          height={1080}
+          fill
           className="cursor-pointer items-center"
           priority
         />
